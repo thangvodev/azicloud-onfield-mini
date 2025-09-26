@@ -1,6 +1,5 @@
 import React from "react";
 import BannerImg from "../../static/images/banner-mobile.png";
-import { QRPopup } from "./share-popup";
 
 export const Banner = () => {
   return (
@@ -16,13 +15,6 @@ export const Banner = () => {
             Quản lý Activation & On-field minh bạch, realtime và hiệu quả.
           </div>
         </div>
-        <QRPopup>
-          {({ open }) => (
-            <button className="banner__header-sign-up-button" onClick={open}>
-              Đăng ký demo
-            </button>
-          )}
-        </QRPopup>
       </div>
       <img src={BannerImg} alt="" className="banner__banner-image" />
     </section>
