@@ -10,7 +10,9 @@ export const SubscribeFloatButton = () => {
       style={{ boxShadow: "0px 8px 32px 0px #3C3C3C40" }}
     >
       <Button
-        text={<div className="text-base font-medium text-white">Đặt món</div>}
+        text={
+          <div className="text-base font-medium text-white">Đăng ký demo</div>
+        }
         style={{ boxShadow: "0px 4px 24px 0px #7D6A6A14" }}
         className="flex h-[45px] w-full flex-none items-center justify-center rounded-[100px] bg-infor3 px-[14px]"
       />
